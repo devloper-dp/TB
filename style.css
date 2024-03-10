@@ -2160,6 +2160,7 @@ p {
 @media only screen and (max-width: 768px) { 
   .book {
     width: 95%; 
+    margin-top: 140px;
   }
   .motive {
     margin-left: 10%; 
@@ -2172,6 +2173,7 @@ p {
 @media only screen and (max-width: 600px) {
   .book {
     width: 98%;
+    margin-top: 140px;
   }
   .motive h2 { 
     font-size: 18px; 
@@ -2182,10 +2184,14 @@ p {
   .motive, 
   .instruction {
     width: 90%; 
-    margin: 10px auto; 
+    margin: auto; 
   }
 }
 @media only screen and (max-width: 480px) {
+  .book
+  {
+    margin-top: 140px;
+  }
   .page {
     width: 100%; 
   }
